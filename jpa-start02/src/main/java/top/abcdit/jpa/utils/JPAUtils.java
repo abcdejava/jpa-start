@@ -11,7 +11,8 @@ public class JPAUtils {
 
     // 1.获得实体管理工厂
     private static EntityManagerFactory getEntityManagerFactory() {
-
+        System.out.println("测试git");
+		System.out.println("测试git");
         return Persistence.createEntityManagerFactory("NewPersistenceUnit");
 
     }
