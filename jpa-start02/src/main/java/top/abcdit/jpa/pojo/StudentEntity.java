@@ -13,6 +13,9 @@ public class StudentEntity {
     private Integer studentStatus;
     private Timestamp createDate;
 
+    public StudentEntity() {
+    }
+
     @Id
     @Column(name = "student_id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
