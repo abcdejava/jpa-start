@@ -14,6 +14,8 @@ public class StudentEntity {
     private Timestamp createDate;
 
     public StudentEntity() {
+
+        super();
     }
 
     @Id
